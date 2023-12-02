@@ -12,7 +12,7 @@ app.use(morgan("common"))
 
 //setting cors policies to accept only request from related related domain
 app.use(cors({
-    origin: ["http://chamalkamarasinghe.github.io/recipeApp_clientt"],
+    origin: ["https://chamalkamarasinghe.github.io/recipeApp_clientt"],
     methods: ["GET", "POST", "PATCH"],
     credentials: true,
 }))
